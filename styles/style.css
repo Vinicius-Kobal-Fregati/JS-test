@@ -1,0 +1,51 @@
+p, li {
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 500px; /*força a estrutura de texto a sempre ter uma largura máxima de 500 px */
+}
+h1, h2, h3 {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 40px;
+}
+#one {
+  color: yellowgreen //comentário, só mudei a cor para ver como estilizar por ID e se um código poderia ter mais de uma dessas modificações. 
+}
+#two{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px; //Precisei mudar o tamanho da fonte do h2 pois o estilo de letra é menor, assim ficava visualmente estranho. 
+}
+html{
+  background-color: #E0FFFF
+}
+/*
+body{
+  margin: 0 auto;
+  background-color:	#FFE4E1
+  border: 5px solid black;
+  padding: 0 20px 20px 20px;
+}
+Exemplo de código, no meu, não mudou basicamente nada kkkk
+
+
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+Código fornecido para editar o título, não vejo necessidade de aplicar isto neste projeto.
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+Centraliza todas as imagens
+*/
+#three{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
