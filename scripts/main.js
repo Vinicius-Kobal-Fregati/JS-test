@@ -7,7 +7,7 @@ myImage.onclick = function () {mySrc = myImage.getAttribute ('src');
         myImage.setAttribute ('src', 'images/capa.jpg');
     }
 }
-let // por que precisa deste let ?
+let; // por que precisa deste let ?
 // Isso faz com que ao tocar na imagem da capa, ela altera para outra imagem, clicando pela segunda vez, volta a primeira.
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
